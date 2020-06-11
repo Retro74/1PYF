@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Primse - Volum </title>
+    <link rel="stylesheet" href="css/calcstyle.css" type="text/css">
+    <script>
+        function VolumPrisme() {
+            resultat.innerHTML = "Svar: Volumet av prismet er: " + lengde.value * bredde.value * hoyde.value;
+        }
+    </script>
+
+</head>
+
+<body>
+<h1>Geometrikalkulator: Volum av et prisme</h1>
+
+<img src="images/prisme.png" />
+<h2>Skriv inn lengdene på sidekantene i rektangelet</h2>
+<p>
+    Lengde: <input type="number" id="lengde" > <br>
+    Bredde: <input type="number" id="bredde" > <br>
+    Høyde: <input type="number" id="hoyde" > <br>
+    <br>
+    <input type="button" value="Regn ut" style="width: 200px" onclick="VolumPrisme()">
+
+</p>
+<h2 id="resultat"></h2>
+<br>
+<a href="Start_VolumOverflate.html">Tilbake</a>
+</body>
+</html>
+

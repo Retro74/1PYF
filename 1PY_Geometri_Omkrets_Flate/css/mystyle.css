@@ -1,0 +1,121 @@
+/*https://www.kalkuler.com/kalkulator/web/html-fargenavn/*/
+:root {
+    /* Palette */
+    --form-button-font-color:               #890A41;
+    --form-button-border-color:             #C94A81;
+    --form-main-bg-color:                   #EB3B88;
+    --form-font-color:                      #F072A9;
+    --form-input-placeholder-font-color:    #F072A9;
+    --form-border-color:                    #FFD2D2;
+    --form-box-shadow-color:                #FFD5E7;
+    --form-input-bg-color:                  #FFEFF6;
+    --form-fieldset-bg-color:               #FFF4F4;
+    --form-text-shadow-color:               #FFFFFF;
+}
+
+.form-style-3 {
+    width: 50%;
+}
+
+.form-style-3 label{
+    display:block;
+    margin-bottom: 10px;
+}
+.form-style-3 label > span{
+    float: left;
+    width: 100px;
+    color: var(--form-font-color);
+    font-weight: bold;
+    font-size: 13px;
+    text-shadow: 1px 1px 1px var(--form-text-shadow-color);
+}
+.form-style-3 fieldset{
+    border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid var(--form-border-color);
+    padding: 20px;
+    background: var(--form-fieldset-bg-color);
+    box-shadow: inset 0px 0px 15px var(--form-box-shadow-color);
+}
+.form-style-3 fieldset legend{
+    color: var(--form-font-color);
+    border-top: 1px solid var(--form-border-color);
+    border-left: 1px solid var(--form-border-color);
+    border-right: 1px solid var(--form-border-color);
+    border-radius: 5px 5px 0px 0px;
+    background: #FFF4F4;
+    padding: 0px 8px 3px 8px;
+    box-shadow: -0px -1px 2px var(--form-box-shadow-color);
+    font-weight: normal;
+    font-size: 12px;
+}
+.form-style-3 textarea{
+    width:250px;
+    height:100px;
+}
+.form-style-3 input[type=text]::placeholder,
+.form-style-3 input[type=date]::placeholder,
+.form-style-3 input[type=datetime]::placeholder,
+.form-style-3 input[type=number]::placeholder,
+.form-style-3 input[type=search]::placeholder,
+.form-style-3 input[type=time]::placeholder,
+.form-style-3 input[type=url]::placeholder,
+.form-style-3 input[type=email]::placeholder,
+.form-style-3 select::placeholder,
+.form-style-3 textarea::placeholder
+{
+    color: var(--form-input-placeholder-font-color);
+}
+
+
+
+.form-style-3 input[type=text],
+.form-style-3 input[type=date],
+.form-style-3 input[type=datetime],
+.form-style-3 input[type=number],
+.form-style-3 input[type=search],
+.form-style-3 input[type=time],
+.form-style-3 input[type=url],
+.form-style-3 input[type=email],
+.form-style-3 select,
+.form-style-3 textarea{
+    border-radius: 3px;
+    border: 1px solid var(--form-border-color);
+    outline: none;
+    color: var(--form-font-color);
+    padding: 5px 8px 5px 8px;
+    box-shadow: inset 1px 1px 4px var(--form-box-shadow-color);
+    background: var(--form-input-bg-color);
+    width:50%;
+
+}
+
+.form-style-3 input[type=checkbox],
+.form-style-3 input[type=radio]{
+    border-radius: 3px;
+    border: 1px solid var(--form-border-color);
+    outline: none;
+    color: var(--form-font-color);
+    padding: 5px 8px 5px 8px;
+    box-shadow: inset 1px 1px 4px var(--form-box-shadow-color);
+    background: #FFEFF6;
+}
+
+
+.form-style-3  input[type=submit],
+.form-style-3  input[type=reset],
+.form-style-3  input[type=button]{
+    background: var(--form-main-bg-color);
+    border: 1px solid var(--form-button-border-color);
+    padding: 5px 15px 5px 15px;
+    color: var(--form-button-font-color);
+    box-shadow: inset -1px -1px 3px var(--form-box-shadow-color);
+    border-radius: 3px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.required{
+    color:red;
+    font-weight:bold;
+}
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geometrikalkulator: Rektangel - omkrets</title>
+    <link rel="stylesheet" href="css/calcstyle.css" type="text/css">
+    <link rel="stylesheet" href="css/mystyle.css" type="text/css">
+    <script>
+        function OmkretsRektangel() {
+            resultat.innerHTML="Svar: Omkretsen av rektangelet er: " ;
+        }
+    </script>
+</head>
+<body>
+<h1>Geometrikalkulator: Omkrets av et rektangel</h1>
+
+<img src="images/rektangel.png" />
+<h2>Skriv inn lengdene på sidekantene i rektangelet</h2>
+<p>
+Lengde: <input type="number" id="lengde" > <br>
+Bredde: <input type="number" id="bredde" > <br>
+    <br>
+<input type="button" value="Regn ut" style="width: 200px" onclick="OmkretsRektangel()">
+
+</p>
+<h2 id="resultat"></h2>
+<br>
+<a href="Start_ArealOmkrets.html">Tilbake</a>
+</body>
+</html>
+
